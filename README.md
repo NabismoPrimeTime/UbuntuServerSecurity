@@ -1,1 +1,2 @@
 # UbuntuServerSecurity
+This script records potentially suspicious login activity as well as monitors log file activity using md5 checksum. This script is designed to be run as a cronjob with root priveleges. It is easiest to run this script from your home directory, however you are welcome to change the directory it is run from. The script will create a log file with the date and echo to the console where this log file can be found. 
